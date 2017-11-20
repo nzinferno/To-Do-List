@@ -1,5 +1,4 @@
 // check off specific todos
-
 $("ul").on("click", "li", function(){
   $(this).toggleClass("completed");
 });
@@ -22,6 +21,7 @@ $("input[type='text']").keypress(function(event) {
   }
 });
 
+// Fading the input for new todos
 $(".fa-plus-circle").click(function() {
   $("input[type='text']").fadeToggle();
 });
