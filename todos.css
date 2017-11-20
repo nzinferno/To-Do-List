@@ -48,6 +48,7 @@ input {
 	box-sizing: border-box;
 	color: #2980B9;
 	border: 3px solid rgba(0,0,0,0);
+	display: none;
 }
 
 li:nth-child(2n) {
